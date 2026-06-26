@@ -1,0 +1,53 @@
+FlowChart 
+    Start, End --> Oval,
+    Input, Output --> Parallelogram block,
+    Process or Operation --> Rectangle block,
+    Decision --> Diamond block.
+
+Psuedocode is the general solution of the problem, and it's also know as english like language of code
+Sum of 2 numbers: 
+    1. Input a and b,
+    2. sum = a + b,
+    3. print sum.
+
+Area of Square: 
+    1. Input side,
+    2. area = side * side,
+    3. print area.
+
+Min of 2 numbers
+    1. Input a and b,
+    2. If a < b
+            print a
+       Else 
+            print b
+    3. Exit.
+
+Is number odd or even
+    1. Input a,
+    2. If a % 2 == 0
+            print a is even
+       Else
+            print a is odd
+    3. Exit.
+
+Sum of numbers from 1 to n
+    1. Input n,
+    2. count = 1, sum = 0,
+    3. while count <= n
+            sum = sum + count
+            count = count + 1
+    4. print sum
+    5. Exit.
+
+Is number Prime or not
+    1. Input n,
+    2. i = 2,
+    3. while i < = (n-1) 
+            If n % i == 0 
+                print n is non-prime
+                Exit.
+            Else
+                i = i + 1
+    4. print n is prime
+    
