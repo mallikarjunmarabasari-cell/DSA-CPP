@@ -1,15 +1,24 @@
-#include<stdio.h>
-void main(){
+#include <stdio.h>
+
+int main(void) {
     int n, i = 2;
-    print("Enter a number: ");
+
+    printf("Enter a number: ");
     scanf("%d", &n);
-    while(i <- (n - 1)){
-        if(n % i == 0){
-            printf("%d is non-prime", n);
-            break;
-        } else {
-            i = i + 1;
-        }
+
+    if (n <= 1) {
+        printf("%d is non-prime\n", n);
+        return 0;
     }
-    printf("%d is Prime", n);
+
+    while (i <= (n - 1)) {
+        if (n % i == 0) {
+            printf("%d is non-prime\n", n);
+            return 0;
+        }
+        i = i + 1;
+    }
+
+    printf("%d is Prime\n", n);
+    return 0;
 }
