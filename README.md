@@ -18,7 +18,7 @@ Welcome to my Data Structures and Algorithms (DSA) repository! This repository s
 Track my learning journey through the major modules of the course. *(Checked boxes `[x]` indicate completed modules)*
 
 ### 1. Fundamentals & Basics
-- [ ] **Introduction:** Flowcharts, pseudocode, and environment setup.
+- [x] **Introduction:** Flowcharts, pseudocode, and environment setup.
 - [ ] **Language Basics:** Variables, data types, operators, conditional statements, loops, and pattern printing.
 - [ ] **Functions:** Implementation, scope, and function execution mechanics.
 
